@@ -1,0 +1,4 @@
+#include <ncurses.h>
+
+start();
+printc(char s[],int x);

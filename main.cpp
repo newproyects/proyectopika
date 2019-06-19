@@ -1,6 +1,7 @@
 #include <iostream>
 #include <SFML/Graphics.hpp>
 #include <ncurses.h>
+#include "nshort.h"
 
 using namespace std;
 using namespace sf;
@@ -9,7 +10,8 @@ int main(){
   int i;
   initscr();
   noecho();
-  printw("jejeje");
+  start();
+  printc("jajajaj",2);
   getch();
   RenderWindow w(VideoMode(600,600),"JEJEJEJE");
   VertexArray l(Lines,164);
